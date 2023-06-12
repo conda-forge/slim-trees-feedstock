@@ -3,7 +3,7 @@ About slim-trees-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/slim-trees-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/pavelzw/slim-trees
+Home: https://github.com/Quantco/slim-trees
 
 Package license: MIT
 
