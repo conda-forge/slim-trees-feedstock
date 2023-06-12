@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 0
+  number: 1
 
 requirements:
   host:
@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/pavelzw/slim-trees
+  home: https://github.com/Quantco/slim-trees
   summary: A python package for efficient pickling of ML models.
   license: MIT
   license_file: LICENSE
