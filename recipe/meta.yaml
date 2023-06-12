@@ -33,7 +33,7 @@ test:
     - pip
 
 about:
-  home: https://github.com/pavelzw/slim-trees
+  home: https://github.com/Quantco/slim-trees
   summary: A python package for efficient pickling of ML models.
   license: MIT
   license_file: LICENSE
