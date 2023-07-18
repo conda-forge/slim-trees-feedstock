@@ -1,18 +1,18 @@
 {% set name = "slim-trees" %}
-{% set version = "0.2.1" %}
+{% set version = "0.2.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/slim-trees-{{ version }}.tar.gz
-  sha256: 766b2c192101fc0e75c08d9359b66aa2877768c33415fe1fe013976abc72cce4
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: de935268686c39a294c3531df9064e776906897b8dee7482b478b52467e51718
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 1
+  number: 0
 
 requirements:
   host:
