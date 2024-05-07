@@ -1,5 +1,5 @@
 {% set name = "slim-trees" %}
-{% set version = "0.2.7" %}
+{% set version = "0.2.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: ae2a66d3511a178850a46fa3ba9e497a9a484223cb10a2a3ee4dd6e92a66d98c
+  sha256: a5fcc3d1d1f7d021e6304b739f5528983fa01032401a907d374f211a8222ff2d
 
 build:
   noarch: python
@@ -23,7 +23,7 @@ requirements:
     - python >=3.8
     - numpy
   run_constrained:
-    - scikit-learn >=1.1,<1.4
+    - scikit-learn >=1.1,<1.5
     - lightgbm >=3.2,<4.4
 
 test:
