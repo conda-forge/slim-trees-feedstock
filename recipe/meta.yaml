@@ -1,5 +1,5 @@
 {% set name = "slim-trees" %}
-{% set version = "0.2.9" %}
+{% set version = "0.2.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 52699160cbd59c9b35eba09716c02bd0b335acc396ee6160e28fc5e3a64de81b
+  sha256: 565f347379cf51bb83c77bd78ab9ed2d409d2df2d22c1af8da193facc8b74f05
 
 build:
   noarch: python
